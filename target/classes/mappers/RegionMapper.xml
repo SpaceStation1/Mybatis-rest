@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE mapper PUBLIC '-//mybatis.org//DTD Mapper 3.0//EN'
+        'http://mybatis.org/dtd/mybatis-3-mapper.dtd'>
+
+<mapper namespace='directoryTestRest.mapper.RegionMapper'>
+
+<!--    <select id='getRegionById' parameterType='int' resultType='directoryTestRest.model.Region'>-->
+<!--        SELECT-->
+<!--        id as id,-->
+<!--        name as name,-->
+<!--        short_name as short_name-->
+<!--        FROM regions-->
+<!--        WHERE id = #{Id}-->
+<!--    </select>-->
+<!--    <resultMap type='Region' id='RegionResult'>-->
+<!--        <id property='id' column='id'/>-->
+<!--        <result property='name' column='name'/>-->
+<!--        <result property='short_name' column='short_name'/>-->
+<!--    </resultMap>-->
+
+<!--    <select id='getAllRegions' resultMap='RegionResult'>-->
+<!--        SELECT * FROM regions-->
+<!--    </select>-->
+
+<!--    <insert id='insertRegion' parameterType='Region' useGeneratedKeys='true' keyProperty='Id'>-->
+<!--        INSERT INTO Regions(id, name, short_name)-->
+<!--        VALUES(#{id}, #{name}, #{short_name})-->
+<!--    </insert>-->
+
+<!--    <update id='updateRegion' parameterType='Region'>-->
+<!--        UPDATE Region-->
+<!--        SET-->
+<!--        name = #{name},-->
+<!--        short_name = #{short_name},-->
+<!--        WHERE id = #{Id}-->
+<!--    </update>-->
+
+<!--    <delete id='deleteRegion' parameterType='int'>-->
+<!--        DELETE FROM Regions WHERE id = #{Id}-->
+<!--    </delete>-->
+
+</mapper>

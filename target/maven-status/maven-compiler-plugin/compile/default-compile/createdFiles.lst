@@ -1,0 +1,7 @@
+directoryTestRest\service\RegionService.class
+directoryTestRest\mapper\RegionMapper.class
+directoryTestRest\controller\RegionController.class
+directoryTestRest\service\MyBatisUtil.class
+directoryTestRest\model\Region.class
+directoryTestRest\CachingConfig.class
+directoryTestRest\RestRegionServiceApplication.class
